@@ -1,0 +1,24 @@
+{
+  "name": "5dayforecast",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "browser-sync start --server --files \"js/**/*.js\" --index index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ypyang237/weatherforecast.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ypyang237/weatherforecast/issues"
+  },
+  "homepage": "https://github.com/ypyang237/weatherforecast#readme",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.2.0"
+  }
+}

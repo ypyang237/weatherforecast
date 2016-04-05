@@ -3,18 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <title>5daysWeather</title>
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <input id="target" type="text">
   <button id="weatherBtn">Get Weather Forecast</button>
   <div id="display">
    <div id='daycolumns'>
-    <div id="day1">Day One: </div>
-    <div id="day2">Day Two: </div>
-    <div id="day3">Day Three: </div>
-    <div id="day4">Day Four: </div>
-    <div id="day5">Day Five: </div>
+
+<table border="1" style="width:100%">
+  <tr>
+    <th><div id="day1">Day One: </div></th>
+    <th> <div id="day2">Day Two: </div></th>
+    <th><div id="day3">Day Three: </div></th>
+    <th><div id="day4">Day Four: </div></th>
+    <th id="day5">Day Five: </div></th>
+  </tr>
+  <tr>
+    <td id="high">High</td>
+  </tr>
+  <tr>
+    <td id="low">Low</td>
+  </tr>
+  <tr>
+    <td id="description">description</td>
+  </tr>
+  <tr>
+    <td id="icon">icon</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td> </td>
+    <td></td>
+  </tr>
+</table>
+
     </div>
+
+
   </div>
   <script src="/js/client.js"></script>
 </body>
